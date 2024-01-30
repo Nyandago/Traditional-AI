@@ -1,0 +1,30 @@
+Download Visual Studio Code: https://code.visualstudio.com/download
+
+Donwload Python version 3.7-3.9: https://www.python.org/ftp/python/3.9.0/python-3.9.0-amd64.exe (check all the boxes)
+
+Installation in IDE: pip
+
+
+pip install textblob
+pip install numpy
+
+Open Command Prompt --> 
+pip install tensorflow
+if doesn't work then use "python.exe -m pip install --upgrade pip" and then "pip install tensorflow"
+
+pip install pandas
+pip install scikit-learn
+
+pip install opencv-python-headless
+pip install Pillow
+
+pip3 install torch torchvision torchaudio
+pip install transformers
+
+pip install gradio --upgrade
+pip install transformers --upgrade
+
+Download Anaconda --> https://www.anaconda.com/download
+
+
+
