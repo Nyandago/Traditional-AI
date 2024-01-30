@@ -16,6 +16,6 @@ def analyze_sentiment(text):
 
 # Example usage
 #text = "who are you?"
-text=input("Weka sentensi: ")
+text=input("Enter any sentence: ")
 sentiment = analyze_sentiment(text)
 print(f"The sentiment of the text is: {sentiment}")
