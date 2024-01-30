@@ -2,10 +2,11 @@
 
 # Sample movie data (genre, title)
 movies = [
-    ("Comedy", "Superbad"),
-    ("Action", "Avengers"),
+    ("Comedy", "Inye Ndembwe Ndembwe"),
+    ("Action", "Misukosuko"),
     ("Drama", "The Godfather"),
     ("Drama","Hum Sath Sath Hain"),
+    ("Swahili","Oprah")
     # ... more movies
 ]
 
@@ -15,7 +16,7 @@ def recommend_movies(genre):
 
 # Main function for user interaction
 def movie_recommender():
-    user_genre = input("Enter your preferred movie genre (Comedy, Action, Drama, etc.): ")
+    user_genre = input("Enter your preferred movie genre (Swahili ,Comedy, Action, Drama, etc.): ")
     recommended = recommend_movies(user_genre)
     print("Movies you might like:", recommended)
 
